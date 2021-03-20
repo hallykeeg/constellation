@@ -4,9 +4,10 @@ html, body {
 }
 
 .navbar {
-    background-color: #00050C;
-    padding:1% 0;
+    background-color: #021d40;
+    padding:1% 0 0 0;
     font-size:1.2em;
+    
 }
 .navbar-brand {
     min-height: 55px;
@@ -28,10 +29,10 @@ html, body {
     position: relative;
     width: 100%;
     background-size: cover;
-    filter: blur(5px);
-  -webkit-filter: blur(5px);
+    /* margin-top:  -1px !important;; */
+    /*  */
 }
-.landing-text{
+.landing-text {
     display:table-cell;
     text-align: center;
     vertical-align: middle;
@@ -39,6 +40,58 @@ html, body {
     
 }
 
+.landing-text h1{
+    font-size: 500%;
+    font-weight: 700;
+}
+.contact {
+    font-weight: bold;
+}
+.padding {
+    padding:80px 0;
+}
+.padding img{
+    width:100%;
+}
+
+#fixed{
+    background: url(images/background-2.png) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
 .active{
     color:#e21748 !important;
 }
+footer{
+    width: 100%;
+    background-color: #021d40;
+    padding:5%;
+    color: white;
+}
+.fa{
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+}
+.fa:hover{
+    color:#e21748;
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    .landing-text h1{
+        font-size: 300%;
+    }
+    .fa{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon{
+        padding-top: 5%;
+        max-width: 100px;
+        }
+}
+
