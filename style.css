@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #00050C;
+    padding:1% 0;
+    font-size:1.2em;
+}
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+} 
+.navbar-default .navbar-nav li a {
+    color:white;
+    font-weight:bold;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color:#e21748;
+    
+}
+#home{
+    background: url("images/background-2.png") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+.landing-text{
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    
+}
+
+.active{
+    color:#e21748 !important;
+}
