@@ -2,6 +2,10 @@ html, body {
     height: 100%;
     width: 100%;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .navbar {
     background-color: #021d40;
@@ -22,8 +26,12 @@ html, body {
     color:#e21748;
     
 }
+.titres{
+    font-weight: bold;
+    color:#e21748;
+}
 #home{
-    background: url("images/background-2.png") no-repeat center center fixed;
+    background: #021d40 no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -43,9 +51,12 @@ html, body {
 .landing-text h1{
     font-size: 500%;
     font-weight: 700;
+    color:white;
 }
 .contact {
+    text-align: center;
     font-weight: bold;
+    
 }
 .padding {
     padding:80px 0;
@@ -55,9 +66,11 @@ html, body {
 }
 
 #fixed{
-    background: url(images/background-2.png) no-repeat center center fixed;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,1,68,1) 35%, rgba(0,212,255,1) 100%) center center fixed; 
+    /* background: url(images/background-2.png) no-repeat center center fixed; */
     display: table;
-    height: 60%;
+    height: 2%;
     position: relative;
     width: 100%;
     background-size: cover;
@@ -93,5 +106,26 @@ footer{
         padding-top: 5%;
         max-width: 100px;
         }
+}
+
+.custom-shape-divider-bottom-1616888157 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1616888157 svg {
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 114px;
+}
+
+.custom-shape-divider-bottom-1616888157 .shape-fill {
+    fill: #FFFFFF;
 }
 
