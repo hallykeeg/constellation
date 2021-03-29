@@ -5,6 +5,7 @@ html, body {
 body{
     margin: 0;
     padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar {
@@ -22,9 +23,19 @@ body{
     font-weight:bold;
 }
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #e21748;
+    display:block;
+}
+
 .navbar-default .navbar-nav li a:hover {
     color:#e21748;
     
+}
+.navbar-default .navbar-nav li a:focus{
+    color:#e21748 !important;
 }
 .titres{
     font-weight: bold;
@@ -75,9 +86,10 @@ body{
     width: 100%;
     background-size: cover;
 }
-.active{
-    color:#e21748 !important;
+.mainPage{
+    color:#e21748;
 }
+
 footer{
     width: 100%;
     background-color: #021d40;
@@ -96,7 +108,10 @@ footer{
 
 @media (max-width:768px){
     .landing-text h1{
-        font-size: 300%;
+        font-size: 200%;
+    }
+    .landing-text h3{
+        text-align: center;
     }
     .fa{
         font-size: 20px;
@@ -129,3 +144,22 @@ footer{
     fill: #FFFFFF;
 }
 
+.custom-shape-divider-top-1617050734 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1617050734 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-top-1617050734 .shape-fill {
+    fill: #e21748;
+}
