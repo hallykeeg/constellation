@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background-color: #021d40;
+    padding:1% 0 0 0;
+    font-size:1.2em;
+    
+}
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+} 
+.navbar-default .navbar-nav li a {
+    color:white;
+    font-weight:bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #e21748;
+    display:block;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color:#e21748;
+    
+}
+.navbar-default .navbar-nav li a:focus{
+    color:#e21748 !important;
+}
+.titres{
+    font-weight: bold;
+    color:#e21748;
+}
+
+#cards{
+    margin-top: 100px;
+}
+.card{
+    margin-bottom:  10px;
+    margin-top: 5px;
+
+    padding: 14px;
+    background-color: #b8c6db;
+    width:100%;
+}
+
+
+
+.active{
+    color:#e21748 !important;
+}
+
+footer{
+    width: 100%;
+    background-color: #021d40;
+    padding:5%;
+    color: white;
+}
+.fa{
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+}
+.fa:hover{
+    color:#e21748;
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+   
+}
